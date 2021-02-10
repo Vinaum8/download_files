@@ -14,7 +14,8 @@ def DownloadFile(url, local_filename):
 
 
 if __name__ == "__main__":
-    BASE_URL = 'http://mensageria.useallcloud.com.br/backup/bkpmensageria.gz'
+    # Descomentar e colocar uma URL aqui =P
+    # BASE_URL = 'COLOCAR UMA URL AQUI'
     OUTPUT_DIR = 'output'
     nome_arquivo = os.path.join(OUTPUT_DIR, 'bkp_mensageria.gz')
     DownloadFile(BASE_URL, nome_arquivo)
